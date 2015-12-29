@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Independent Drivers Consortium new app cart 1</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<link rel="stylesheet" href="inc/jq/themes/theme-02.min.css" />
+<link rel="stylesheet" href="inc/jq/themes/jquery.mobile.icons.min.css" />
+<!-- -->
+ 
+
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ <script>
+	$(function(){
+		$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		});
+    </script> <!-- -->
+
+<link href="mob.css" rel="stylesheet" type="text/css" />
+
+  
+</head>
+<body>
+
+<div data-role="header" data-position="fixed" data-theme="a">
+
+
+<div class="box1 center1 boxblue" >
+<a href="new-client-application-form-start.html" rel="external"><img src="pics/appbanner-320x60-home1.png" width="320" height="61" class="center" ></a>
+</div>
+
+
+
+<!--<h1>Page head Title</h1> -->
+</div><!-- /header -->
+
+<section id="page1" data-role="page">
+    
+
+
+<div role="main" class="ui-content">
+<div class="content" >
+<div class="box1 center1" >
+  
+      
+<!--INSERT START  width="320" -->
+          
+<table align="center" border="0">
+ 
+  <tr>
+    <td width="10" valign="TOP" background="pics/bk2.jpg"><?php // require_once('nav_left.php'); ?></td>
+    <td valign="TOP" align="LEFT" background="pics/stripes_teal_bkgrnd.gif">
+    
+    
+    
+    
+    <table border="0" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <td colspan="2" align="center">
+    
+   
+    
+        </td>
+    <td>&nbsp;</td>
+  </tr>
+  
+    <tr>
+    <td align="center">
+      <span class="print_data_20_b">
+      
+      <strong>
+  <span id="CommonName"></span>
+      
+      
+      </strong><br>
+      
+      ( <span id="type_of_company_number"></span> )
+ </span>
+   <br />  <br /> 
+     
+    
+   
+    
+    
+  </td>
+      <td></td>
+      
+      <td>&nbsp;</td>
+    </tr>
+  
+</table>
+
+
+
+<div align="center">
+
+
+ <span class="print_data_18">
+ 
+ 
+
+<!-- -->
+
+<strong>
+
+
+
+
+</strong>
+
+<!--
+
+<span id="ms"></span><br><br> -->
+
+<!--
+
+<span id="ms2"></span><br> -->
+
+
+<!--<span id="toc_mship_Company"></span><br> -->
+
+
+<div align="left">
+
+Representative: <span id="toc_mship_Contact_First"></span> <span id="toc_mship_Contact_Last"></span><br>
+<span id="toc_mship_Address"></span><br>
+<span id="toc_mship_City"></span>, <span id="toc_mship_State"></span> 
+<span id="toc_mship_Zip"></span><br>
+PH: <span id="toc_mship_Phone1"></span><br>
+
+</div>
+
+</span>
+   <strong>
+   <span class="print_data_22">
+   <span class="big20"></span>
+   
+    </strong> 
+ <!-- </span> -->
+
+ <br>
+ 
+<strong>If <span id="CommonName2"></span> is to receive<br>
+your drug and alcohol test results......</strong>
+
+<span class="big22">
+
+
+
+<a rel="external" class="buttonlink2 center1" href="contractor-agreement.html" title="cart2">- Continue -</a>
+
+<br>
+
+
+</span>
+    
+
+<strong>Not to receive your test results?</strong><br />
+ 
+ 
+<span class="big18"><a rel="external" class="buttonlink2 center1" href="new-client-application-form-start.html">Go Back</a></span>
+
+
+ 
+
+</div>
+  
+  
+  
+  
+  
+
+ 
+ 
+<strong>
+
+ </strong>
+ <!--</span> -->
+
+
+
+
+
+<br />
+
+
+</td>
+  </tr>
+</table>
+
+
+
+<script>
+
+
+
+//
+document.getElementById('CommonName').textContent = localStorage.getItem("CommonName");
+document.getElementById('CommonName2').textContent = localStorage.getItem("CommonName");
+//document.getElementById('CommonName').textContent = 'YUMMMMM';
+document.getElementById('type_of_company_number').textContent = localStorage.getItem("type_of_company_number");
+
+//document.getElementById('ms').innerHTML = localStorage.getItem("ms");
+
+
+/*
+// YO clever use for later
+var str = 'This is a test string.';
+// Let's replace all spaces with ','
+str = str.split(' ').join(',');
+*/
+
+//var ms2 = localStorage.getItem("ms");
+//var ms2mod = ms2.replace("\n", "<br>");
+
+
+// YO clever use for later
+//var str = localStorage.getItem("ms");
+// Let's replace all spaces with ','
+//str = str.split(' ').join(',');
+
+//str = str.split('\n').join('<br>');
+
+
+
+//document.getElementById('ms2').innerHTML = localStorage.getItem("ms2");
+
+
+
+//document.getElementById('toc_mship_Company').innerHTML = localStorage.getItem("toc_mship_Company");
+document.getElementById('toc_mship_Contact_First').innerHTML = localStorage.getItem("toc_mship_Contact_First");
+document.getElementById('toc_mship_Contact_Last').innerHTML = localStorage.getItem("toc_mship_Contact_Last");
+document.getElementById('toc_mship_Address').innerHTML = localStorage.getItem("toc_mship_Address");
+document.getElementById('toc_mship_City').innerHTML = localStorage.getItem("toc_mship_City");
+document.getElementById('toc_mship_State').innerHTML = localStorage.getItem("toc_mship_State");
+document.getElementById('toc_mship_Zip').innerHTML = localStorage.getItem("toc_mship_Zip");
+document.getElementById('toc_mship_Phone1').innerHTML = localStorage.getItem("toc_mship_Phone1");
+
+</script>
+
+
+
+
+
+
+
+<!--INSERT END -->
+
+</div><!-- end .box -->
+</div><!-- end .content -->
+</div><!-- /ui-content -->
+  
+</section><!-- /page -->
+<!--
+<footer data-role="footer" class="ui-barNAH" data-position="fixed" data-theme="a">
+<div class="ui-grid-c boxblue">
+<?php include('footer-inc.php'); ?>
+</div>
+</footer>
+ -->
+<!-- /footer -->
+
+</body>
+</html>
